@@ -25,7 +25,12 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
+article {
+	outline: 1px black solid;
+	outline-offset: 5px;
+}
+
+aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -1607,7 +1612,8 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		padding: 0px 5px;
+		padding: 0px 10px;
+		padding-bottom: 45px;
 		height: 35px;
 	}
 
